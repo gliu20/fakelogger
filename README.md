@@ -6,7 +6,8 @@ console.allLogs array. Complete with stack traces. Useful for remote
 debugging or creating a web IDE.
 
 ## Getting Started
-Include `<script src="fakelogger.js"></script>` on your page
+Include `<script src="fakelogger.js"></script>` on your page.
+Or use the minified version `<script src="fakelogger.min.js"></script>`.
 
 ## Usage
 Use `console.*` methods as you would normally. Use only [supported methods](#supports).
