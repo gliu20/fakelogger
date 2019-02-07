@@ -9,6 +9,9 @@ debugging or creating a web IDE.
 Include `<script src="fakelogger.js"></script>` on your page.
 Or use the minified version `<script src="fakelogger.min.js"></script>`.
 
+## License
+See included license file.
+
 ## Usage
 Use `console.*` methods as you would normally. Use only [supported methods](#supports).
 
