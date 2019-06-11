@@ -77,12 +77,9 @@
                // in order to be joined together
                var enumeratedArgs = enumerateObj(arguments);
 
-               // hacky way to delete first argument
-               // because the first argument is the assertion,
-               // we don't want to output that
-               enumeratedArgs.reverse();
-               enumeratedArgs.pop();
-               enumeratedArgs.reverse();
+               // delete first arg; it is the assertion so hide it
+               // from output
+               enumeratedArgs.shift();
               
                // actually output what we want to output
                cachedConsoleAssert(enumeratedArgs.join("    "));
